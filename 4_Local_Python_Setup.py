@@ -28,8 +28,5 @@ def eat_lunch(lunch_items):
 
 
 greet_user()
-print(pack("a", "b", "c"))
-print(pack(1, 2, 3))
-eat_lunch([])
-eat_lunch(["sandwich"])
-eat_lunch(["apple", "banana", "sandwich", "cookie"])
+print(pack('Item1', 'Item2', 'Item3'))
+eat_lunch(["burger", "fries", "cookie"])
